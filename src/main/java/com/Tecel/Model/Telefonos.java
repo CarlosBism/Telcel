@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
+//Mapeo de la BD usando Hibernate
 @Entity
 @Table(name = "Telefonos")
 @AllArgsConstructor
