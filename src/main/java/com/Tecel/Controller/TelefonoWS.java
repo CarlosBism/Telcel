@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
+//EndPoints que se consumiran desde el Fornt -Angular-
 @RestController
 @RequestMapping("Telefonos")
 public class TelefonoWS {
