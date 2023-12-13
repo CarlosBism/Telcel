@@ -4,9 +4,7 @@ import com.Tecel.Dao.TelefonosDao;
 import com.Tecel.Model.Telefonos;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.util.List;
-
 @Service
 public class TelefonosImpServicio implements TelefonosService {
     //Inyectamos ls metodos del dao, el cual a su vez hereda de JPARepository
@@ -29,9 +27,6 @@ public class TelefonosImpServicio implements TelefonosService {
     public void eliminar(Long id) {
         Telefonos TelAux = new Telefonos(id);
         telefonosDao.delete(TelAux);
-
-
-
     }
 
     @Override

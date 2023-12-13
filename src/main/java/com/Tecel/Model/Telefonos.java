@@ -4,8 +4,6 @@ import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.hibernate.internal.build.AllowPrintStacktrace;
-
 
 @Entity
 @Table(name = "Telefonos")
@@ -23,7 +21,7 @@ public class Telefonos {
     private String Ram;
     private Double precio;
 
-
+    //Constructor Vacio
     public Telefonos (Long id){
         this.id = id;
     }

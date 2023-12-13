@@ -1,9 +1,5 @@
 package com.Tecel.Service;
-
-
 import com.Tecel.Model.Telefonos;
-
-import java.math.BigInteger;
 import java.util.List;
 
 //Definicion de metodos a impementar
