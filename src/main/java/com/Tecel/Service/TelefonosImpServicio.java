@@ -38,4 +38,17 @@ public class TelefonosImpServicio implements TelefonosService {
     public List<Telefonos> listar() {
         return telefonosDao.findAll();
     }
+
+    @Override
+    public List<Telefonos> findByModelo(String modelo) {
+        return telefonosDao.findBymodelo(modelo);
+
+    }
+
+    @Override
+    public List<Telefonos> findByMarca(String marca) {
+        return telefonosDao.findBymarca(marca);
+    }
+
+
 }

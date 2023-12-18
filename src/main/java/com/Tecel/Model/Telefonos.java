@@ -14,11 +14,11 @@ public class Telefonos {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
-    private String Marca;
-    private String Modelo;
-    private String Color;
-    private String Almacenamiento;
-    private String Ram;
+    private String marca;
+    private String modelo;
+    private String color;
+    private String almacenamiento;
+    private String ram;
     private Double precio;
 
     //Constructor Vacio
